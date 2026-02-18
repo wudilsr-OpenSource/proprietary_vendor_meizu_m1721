@@ -333,6 +333,8 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m1721/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
+    vendor/meizu/m1721/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_c5490_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_c5490_a3_default_preview.so \
     vendor/meizu/m1721/proprietary/vendor/lib/libchromatix_c5490_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_c5490_a3_default_video.so \
