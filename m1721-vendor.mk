@@ -2197,3 +2197,11 @@ PRODUCT_PACKAGES += \
     manifest_android.hardware.drm-service.widevine \
     vendor.qti.gnss@4.0-service \
     chargeonlymode
+
+PRODUCT_PACKAGES += \
+    libimscamera_jni_libimscamera_jni_symlink64 \
+    libimsmedia_jni_libimsmedia_jni_symlink64 \
+    libEGL_adreno_libEGL_adreno_symlink32 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink32 \
+    libEGL_adreno_libEGL_adreno_symlink64 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink64
