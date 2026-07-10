@@ -6,8 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/meizu/m1721
 
 PRODUCT_COPY_FILES += \
-    vendor/meizu/m1721/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_ETC)/permissions/privapp-permissions-qti.xml \
-    vendor/meizu/m1721/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_ETC)/sysconfig/qti_whitelist.xml \
+    vendor/meizu/m1721/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
+    vendor/meizu/m1721/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/meizu/m1721/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/meizu/m1721/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/meizu/m1721/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
