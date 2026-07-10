@@ -2191,8 +2191,7 @@ PRODUCT_PACKAGES += \
     dpmapi \
     qcrilhook \
     manifest_android.hardware.drm-service.widevine.xml \
-    vendor.qti.gnss@4.0-service.xml \
-    chargeonlymode
+    vendor.qti.gnss@4.0-service.xml
 
 PRODUCT_PACKAGES += \
     libimscamera_jni_libimscamera_jni_symlink64 \
