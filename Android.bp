@@ -43197,8 +43197,9 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_ppeiscore.so",
             ],
             shared_libs: [
+                "libppeiscore_shim",
                 "libEGL",
-                "libGLESv2",
+                "libGLESv2_adreno",
                 "libc",
                 "libc++",
                 "libcutils",
@@ -43214,7 +43215,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
