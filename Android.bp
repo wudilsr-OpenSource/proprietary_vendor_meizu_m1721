@@ -1697,23 +1697,8 @@ cc_prebuilt_library_shared {
                 "libutils",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libacdb-fts.so",
-            ],
-            shared_libs: [
-                "libaudcal",
-                "libc",
-                "libc++",
-                "libcutils",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "both",
+       },
+    compile_multilib: "32",
     prefer: true,
     soc_specific: true,
 }
@@ -1744,27 +1729,8 @@ cc_prebuilt_library_shared {
                 "libutils",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libacdbloader.so",
-            ],
-            shared_libs: [
-                "libacdb-fts",
-                "libacdbrtac",
-                "libadiertac",
-                "libaudcal",
-                "libc",
-                "libc++",
-                "libcutils",
-                "libdl",
-                "liblog",
-                "libm",
-                "libtinyalsa",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "both",
+       },
+    compile_multilib: "32",
     prefer: true,
     soc_specific: true,
 }
@@ -1834,23 +1800,8 @@ cc_prebuilt_library_shared {
                 "libutils",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libacdbrtac.so",
-            ],
-            shared_libs: [
-                "libaudcal",
-                "libc",
-                "libc++",
-                "libcutils",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "both",
+       },
+    compile_multilib: "32",
     prefer: true,
     soc_specific: true,
 }
@@ -2327,23 +2278,8 @@ cc_prebuilt_library_shared {
                 "libutils",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libadiertac.so",
-            ],
-            shared_libs: [
-                "libaudcal",
-                "libc",
-                "libc++",
-                "libcutils",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "both",
+       },
+    compile_multilib: "32",
     prefer: true,
     soc_specific: true,
 }
@@ -2618,22 +2554,8 @@ cc_prebuilt_library_shared {
                 "libutils",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libaudcal.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libc++",
-                "libdiag",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
     },
-    compile_multilib: "both",
+    compile_multilib: "32",
     prefer: true,
     soc_specific: true,
 }
@@ -2656,19 +2578,8 @@ cc_prebuilt_library_shared {
                 "libm",
             ],
         },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libaudioalsa.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libc++",
-                "libdl",
-                "libm",
-            ],
-        },
     },
-    compile_multilib: "both",
+    compile_multilib: "32",
     prefer: true,
     soc_specific: true,
 }
