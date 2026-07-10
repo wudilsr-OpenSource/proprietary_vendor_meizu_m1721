@@ -38218,6 +38218,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libcne.so",
             ],
             shared_libs: [
+                "libwpa_client",
                 "libc",
                 "libc++",
                 "libcutils",
@@ -45419,6 +45420,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libwqe.so",
             ],
             shared_libs: [
+                "libwpa_client",
                 "libbinder",
                 "libc",
                 "libc++",
