@@ -1542,241 +1542,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libOmxAacDec",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxAacDec.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libc++",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxAmrDec",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxAmrDec.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libc++",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxAmrwbplusDec",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxAmrwbplusDec.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libc++",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxApeDec",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxApeDec.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libc++",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxDsdDec",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxDsdDec.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libc++",
-                "libcutils",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxEvrcDec",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxEvrcDec.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libc++",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxG711Dec",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxG711Dec.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libc++",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxQcelp13Dec",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxQcelp13Dec.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libc++",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libOmxWmaDec",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxWmaDec.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libc++",
-                "libdl",
-                "liblog",
-                "libm",
-                "libutils",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libOpenCL",
     owner: "meizu",
     strip: {
@@ -38698,7 +38463,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-
 cc_prebuilt_library_shared {
     name: "libcpion",
     owner: "meizu",
@@ -39085,8 +38849,6 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
-
-
 
 cc_prebuilt_library_shared {
     name: "libfastcvadsp_stub",
@@ -39546,7 +39308,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-
 cc_prebuilt_library_shared {
     name: "libimscamera_jni",
     owner: "meizu",
@@ -39999,7 +39760,6 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
-
 
 cc_prebuilt_library_shared {
     name: "libmdsprpc",
@@ -43992,7 +43752,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-
 cc_prebuilt_library_shared {
     name: "libmmqjpeg_codec",
     owner: "meizu",
@@ -44100,7 +43859,6 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
-
 
 cc_prebuilt_library_shared {
     name: "libnetmgr_common",
@@ -44213,7 +43971,6 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
-
 
 cc_prebuilt_library_shared {
     name: "libperfconfig",
@@ -44354,7 +44111,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-
 cc_prebuilt_library_shared {
     name: "libqcmaputils",
     owner: "meizu",
@@ -44434,8 +44190,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-
-
 cc_prebuilt_library_shared {
     name: "libqisl",
     owner: "meizu",
@@ -44462,7 +44216,6 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
-
 
 cc_prebuilt_library_shared {
     name: "libqmi_cci",
@@ -44507,8 +44260,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-
-
 cc_prebuilt_library_shared {
     name: "libqmi_common_so",
     owner: "meizu",
@@ -44548,7 +44299,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-
 cc_prebuilt_library_shared {
     name: "libqmi_encdec",
     owner: "meizu",
@@ -44587,8 +44337,6 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
-
-
 
 cc_prebuilt_library_shared {
     name: "libqomx_jpegdec",
@@ -45629,7 +45377,6 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
-
 cc_prebuilt_library_shared {
     name: "libthermalfeature",
     owner: "meizu",
@@ -45880,7 +45627,6 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
-
 
 cc_prebuilt_library_shared {
     name: "libxtadapter",
