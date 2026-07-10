@@ -2191,8 +2191,8 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
-    manifest_android.hardware.drm-service.widevine \
-    vendor.qti.gnss@4.0-service \
+    manifest_android.hardware.drm-service.widevine.xml \
+    vendor.qti.gnss@4.0-service.xml \
     chargeonlymode
 
 PRODUCT_PACKAGES += \
