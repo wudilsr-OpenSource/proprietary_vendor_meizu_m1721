@@ -1741,7 +1741,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_isp_wb40 \
     libmmcamera_le2464c_eeprom \
     libmmcamera_le2464c_master_eeprom \
-    libmmcamera_llvd \
     libmmcamera_ofilm_s5k3p3_le2464_eeprom \
     libmmcamera_onsemi_cat24c16_eeprom \
     libmmcamera_onsemi_cat24c32_eeprom \
@@ -1785,7 +1784,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_sony_imx298_eeprom \
     libmmcamera_sony_imx378_eeprom \
     libmmcamera_sonyimx135_eeprom \
-    libmmcamera_stillmore_lib \
     libmmcamera_sunny_8856_eeprom \
     libmmcamera_sunny_8865_eeprom \
     libmmcamera_sunny_gt24c64_imx298_eeprom \

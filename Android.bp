@@ -446,7 +446,6 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libutils",
                 "liblog",
-                "libaudioalsa",
                 "libc++",
                 "libc",
                 "libm",
@@ -40515,33 +40514,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmmcamera_llvd",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmmcamera_llvd.so",
-            ],
-            shared_libs: [
-                "libllvd_smore",
-                "libdl",
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmmcamera_ofilm_s5k3p3_le2464_eeprom",
     owner: "meizu",
     strip: {
@@ -41656,33 +41628,6 @@ cc_prebuilt_library_shared {
                 "libmmcamera_eeprom_util",
                 "libc++",
                 "libdl",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libmmcamera_stillmore_lib",
-    owner: "meizu",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libmmcamera_stillmore_lib.so",
-            ],
-            shared_libs: [
-                "libseemore",
-                "libdl",
-                "libcutils",
-                "liblog",
-                "libc++",
                 "libc",
                 "libm",
             ],
